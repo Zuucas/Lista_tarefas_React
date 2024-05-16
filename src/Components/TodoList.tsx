@@ -42,8 +42,8 @@ export const TodoList = ()=>{
     
 
     return(
-        <Flex  color='white' pt='20' bg='#333333' h='100vh' align='center' justify='start' direction='column'>
-            <Box border='2px solid white' p='20px' borderRadius='20px' bg='#191919'>
+        <Flex as='main' color='white' pt='20' bg='#333333' h='100vh' align='center' justify='start' direction='column'>
+            <Box as='header' border='2px solid white' p='20px' borderRadius='20px' bg='#191919'>
 
                 <Box fontSize='x-large' mb='20px' textAlign='center' >
                     <h1>Lista de Tarefas</h1>
